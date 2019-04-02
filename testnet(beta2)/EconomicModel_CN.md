@@ -23,7 +23,7 @@ Ring Network代币符号为“RNG”，于2018年1月18日完成初始发行，�
   - 0.07, if 当前抵押率 <= 20%
 - 当前轮次增发量 = (当前总发行量 * 等效年化通胀率) / 每年增发轮次
 
-![AttenuationInflation](./image/AttenuationInflation.PNG)
+![AttenuationInflation](image/AttenuationInflation.PNG)
 
 ## 增发分配方式
 确定当前轮次增发量后，增发的RNG按照以下比例进行分配：
@@ -89,7 +89,16 @@ Ring Network代币符号为“RNG”，于2018年1月18日完成初始发行，�
 |568141287 | 30 |
 |818353267 | 31 |
 
+上表中，左列表示押金合约中的RNG数量，右列表示押金数量对应的PoW难度过滤器最大左移数量。经过调整后的超级节点实际PoW难度不低于设计的最小PoW难度。
 
+## 交易手续费
+### 手续费计算
+- 特殊单元，如：PoW单元、TrustME单元和Coinbase单元，无手续费。
+- 普通单元手续费计算公式：<img src="https://latex.codecogs.com/gif.latex?basicFee&space;&plus;&space;\sum(messageSize&space;*messageFactor)" title="basicFee + \sum(messageSize *messageFactor)" />
+### 手续费分配
+- 挖矿启动早期，交易手续费直接销毁（burn），不再做二次分配，发行总量会做相应扣减。
+- 挖矿运行一段时间之后，可通过超级节点投票决定交易手续费如何分配。
 
+## 抵押收益测算
 
-
+## 挖矿收益测算
