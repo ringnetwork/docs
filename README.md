@@ -23,11 +23,11 @@ Documents about Ring Network and TrustME consensus algorithm, their implementati
 We have:
 - Introduction Material
 - Technical documentation
- - [TrustME-Hybrid Consensus](./TrustMEHybridConsensus_CN.md)
- - [Double Spend](./DoubleSpend_CN.md)
-- [Economic Model](./EconomicModel_CN.md)
+   - [TrustME-Hybrid Consensus](./TrustMEHybridConsensus_CN.md)
+   - [Double Spend](./DoubleSpend_CN.md)
+   - [Economic Model](./EconomicModel_CN.md)
 - The Wiki, open for all to edit and improve! Has things like
-   - [Getting started with RingNetwork](https://github.com/ringnetwork/docs/wiki/Getting-Started-With-RingNetwork%3A-Links-and-Resources)
+   - [Getting started with RingNetwork](https://github.com/ringnetwork/docs/wiki/Getting-Started-With-RingNetwork-Links-and-Resources)
    - [FAQ](https://github.com/ringnetwork/docs/wiki/FAQ)
    - [Grin for programmers](https://github.com/ringnetwork/docs/wiki/Hacking-and-contributing)
    - [Glossary and jargon](https://github.com/ringnetwork/docs/wiki/Jargon-file-and-glossary)
