@@ -25,7 +25,7 @@ We have:
 - Technical documentation
  - [TrustME-Hybrid Consensus](./TrustMEHybridConsensus_CN.md)
  - [Double Spend](./DoubleSpend_CN.md)
-- [Economic Model](./EcnomicModel_CN.md)
+- [Economic Model](./EconomicModel_CN.md)
 - The Wiki, open for all to edit and improve! Has things like
    - [Getting started with RingNetwork](https://github.com/ringnetwork/docs/wiki/Getting-Started-With-RingNetwork%3A-Links-and-Resources)
    - [FAQ](https://github.com/ringnetwork/docs/wiki/FAQ)
