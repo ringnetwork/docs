@@ -1,4 +1,4 @@
-[![Gitter](https://badges.gitter.im/Ring-Network/community.svg)](https://gitter.im/Ring-Network/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Gitter](https://badges.gitter.im/rng-core/community.svg)](https://gitter.im/rng-core/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![Documentation Wiki](https://img.shields.io/badge/doc-wiki-blue.svg)](https://github.com/ringnetwork/docs/wiki)
 # Ring Network
 Ring Network is an in-progress implementation of the DAG-based Ledger system. You can find some introductions here. Many characteristics of Ring Network are still undefined. 
