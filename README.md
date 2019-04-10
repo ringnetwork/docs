@@ -29,7 +29,7 @@ We have:
 - The Wiki, open for all to edit and improve! Has things like
    - [Getting started with RingNetwork](https://github.com/ringnetwork/docs/wiki/Getting-Started-With-RingNetwork-Links-and-Resources)
    - [FAQ](https://github.com/ringnetwork/docs/wiki/FAQ)
-   - [Grin for programmers](https://github.com/ringnetwork/docs/wiki/Hacking-and-contributing)
+   - [RNG for programmers](https://github.com/ringnetwork/docs/wiki/Hacking-and-contributing)
    - [Glossary and jargon](https://github.com/ringnetwork/docs/wiki/Jargon-file-and-glossary)
    - [Archive of some design discussions](https://github.com/ringnetwork/docs/wiki/Design-discussions)
    - [and more...](https://github.com/ringnetwork/docs/wiki/)
