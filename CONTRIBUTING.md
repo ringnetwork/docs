@@ -2,7 +2,7 @@
 
 Find an area you can help with and do it. Open source is about collaboration and open participation. Try to make your code look like what already exists and submit a pull request.
 
-The [list of issues](https://github.com/ringnetwork/ringnetwork/issues) is a good place to start, especially the ones tagged as "help wanted" (but don't let that stop you from looking at others). If you're looking for additional ideas, the code includes `TODO` comments for minor to major improvements. Use _Search in files_ in your code editor, or `grep "TODO" -r --exclude-dir=target --exclude-dir=.git .`.
+The [list of issues](https://github.com/ringnetwork/rng-core/issues) is a good place to start, especially the ones tagged as "help wanted" (but don't let that stop you from looking at others). If you're looking for additional ideas, the code includes `TODO` comments for minor to major improvements. Use _Search in files_ in your code editor, or `grep "TODO" -r --exclude-dir=target --exclude-dir=.git .`.
 
 Additional tests are rewarded with an immense amount of positive karma.
 
@@ -28,13 +28,13 @@ The development team will be happy to help and guide you with any of these point
 
 When you are starting to contribute to Ring Network, we really would appreciate if you come by the gitter chat channels.
 
-In case of problems with trying out Ring Network, before starting to contribute, there's the [Support chat](https://gitter.im/ringnetwork_community/support). Write there about what you've done, what you want to do, and maybe paste logs through a text paste webservice.
+In case of problems with trying out Ring Network, before starting to contribute, there's the [Support chat](https://gitter.im/rng-core/support). Write there about what you've done, what you want to do, and maybe paste logs through a text paste webservice.
 
-* Please [join the Ring Network Lobby](https://gitter.im/ringnetwork_community/Lobby) to get a feeling for the community.
-* And [see the developers chat](https://gitter.im/ringnetwork_community/dev) if you have questions about source code files.
+* Please [join the Ring Network Lobby](https://gitter.im/rng-core/Lobby) to get a feeling for the community.
+* And [see the developers chat](https://gitter.im/rng-core/dev) if you have questions about source code files.
   If you explain what you're looking at and what you want to do, we'll try to help you along the way.
 * Also see `docs/*.md` and the folder structure explanations, and [the wiki](https://github.com/ringnetwork/docs/wiki).
-* Further information and discussions are in the [Forum](https://forum.ringnetwork.org/), the [mailing list](https://lists.launchpad.net/ringnetwork/) and news channels like the [@ringnetwork](https://twitter.com/ringnetwork).
+* Further information and discussions are in news channels like the [@ringnetwork](https://twitter.com/ringnetwork).
 
 # Pull-Request Title Prefix
 
