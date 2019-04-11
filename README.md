@@ -29,9 +29,7 @@ We have:
    - [Economic Model](./EconomicModel_CN.md)
 - The Wiki, open for all to edit and improve! Has things like
    - [Getting started with RingNetwork](https://github.com/ringnetwork/docs/wiki/Getting-Started-With-RingNetwork-Links-and-Resources)
-   - [FAQ](https://github.com/ringnetwork/docs/wiki/FAQ)
    - [RNG for programmers](https://github.com/ringnetwork/docs/wiki/Hacking-and-contributing)
-   - [Glossary and jargon](https://github.com/ringnetwork/docs/wiki/Jargon-file-and-glossary)
    - [Archive of some design discussions](https://github.com/ringnetwork/docs/wiki/Design-discussions)
    - [and more...](https://github.com/ringnetwork/docs/wiki/)
 
