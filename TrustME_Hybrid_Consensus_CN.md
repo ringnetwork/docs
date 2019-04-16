@@ -34,6 +34,20 @@ TrustME-Hybrid共识机制为DAG账本系统带来以下优势：
 
 ![DAG-Ledger](image/DAG-Ledger.jpg)
 
-## PoW算法
+## PoW
+PoW基于抗ASIC的[Equihash](https://en.wikipedia.org/wiki/Equihash)算法实现。2016年，卢森堡大学的Alex Biryukov 和 Dmitry Khovratovich等人提出基于生日悖论问题的重度依赖内存访问（memory-hard）的PoW算法。目前，使用Equihash算法的公链包括：Zcash和Bitcoin Gold等。
 
-## BFT算法
+Equihash算法参数：n=200、k=9、d=0，哈希算法：Blake2。
+
+## BFT
+RingNetwork拜占庭协商机制基于Gossip协议和Cosmos的[Tendermint BFT](https://arxiv.org/abs/1807.04938)算法，通过改造Tendermint BFT使其适应DAG账本并直接达成协商结果的最终性。
+
+拜占庭协商过程是异步的，所有公证人权利对等，含四个步骤：
+- Propose: 公证人轮流充当簇首并生成Proposal；
+- Prevote: 接收并验证Proposal，并对其进行投票（赞成或反对）；
+- Precommit: 如果收集到超过2/3的赞成票，则生成并广播“预确认”消息；
+- commit: 如果收集到超过2/3的“预确认”消息，则所有公证人等待接收簇首生成的TrustME单元。
+
+需要特殊说明的是：
+1. 前三个步骤的超时时间是10秒，如果在一个phase内没有到达commit，则下一个phase的超时时间会增加1秒，并且会更换簇首。
+2. 在commit步骤中，如果公证人不能在设定时间（1小时）内收到簇首生成的TrustME单元，意味着簇首节点或整个网络出现了比较严重的问题，所有公证人将退出拜占庭协商，等待轮次强制切换机制激活。设计此机制的目的是保证TrustME单元生成即稳定，避免稳定账本冲突。
